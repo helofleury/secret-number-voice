@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --fonte: "Tilt Neon", sans-serif;
+    --bg-color: rgb(45, 20, 77);
+    --primary-color: #ffffff;
+   
+}
+
+body{
+    font-family: var(--fonte);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+p{
+    width: 55%;
+    margin: 0.2em;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+    margin: 0.5em 0 ;
+}
+
+.mensagem h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#tentativas{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa{
+    font-size: 28px;
+    display: inline-block;
+    border: solid 2px var(--primary-color);
+    padding: 0.3em 1em;
+    margin: 0.5em;
+    
+}
+
+.aviso{
+
+    font-weight: 700;
+    font-size: 18px;
+}
+
+button{
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
